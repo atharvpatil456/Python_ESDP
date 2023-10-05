@@ -7,7 +7,7 @@ class Course(ABC):
         self.price = price
         self.instructor = instructor
 
-    @abstractmethod
+    
     def get_details(self):
         pass
 
